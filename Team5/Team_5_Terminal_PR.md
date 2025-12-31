@@ -119,7 +119,7 @@ python3 -m esptool -p /dev/cu.usbmodem1101 --chip esp32p4 -b 115200 \
 ## 序列埠監看（minicom）
 ### 1) 連線（波特率 115200）
 ```bash
-python3 -m serial.tools.miniterm /dev/cu.usbmodem11201 115200
+python3 -m serial.tools.miniterm /dev/cu.usbmodem1101 115200
 ```
 
 重新上電或按 Reset 後，應該能在輸出中看到：
